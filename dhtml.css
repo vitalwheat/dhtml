@@ -1,0 +1,21 @@
+p {
+  font-weight: bold;
+  text-align: center;
+}
+
+#images {
+  display: flex;
+}
+
+img {
+  margin: 60px 10px 0 10px;
+  border: solid black 2px;
+}
+
+#largePic {
+  height: 500px;
+}
+
+#defaultThumbNail {
+  height: 150px;
+}
