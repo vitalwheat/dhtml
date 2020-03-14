@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <link href="dhtml.css" rel="stylesheet" />
+
+    <title>DHTML</title>
+  </head>
+  <body>
+    <h1>Travel Net</h1>
+    <label for="destination"
+      >Selection Destination</label
+    >
+    <select
+      id="destination"
+      onChange="destinationChanged(this.value)"
+    >
+      <option>-</option>
+      <option value="hawaii">Hawaii</option>
+      <option value="yosemite">Yosemite</option>
+      <option value="lakeTahoe"
+        >Lake Tahoe</option
+      >
+    </select>
+    <div id="images">
+      <div>
+        <img
+          name="thumbnail1"
+          id="defaultThumbNail"
+          onMouseOver="selectLargeImage(this.src)"
+          src="/images/dots.png"
+        />
+      </div>
+      <div>
+        <img
+          name="thumbnail2"
+          id="defaultThumbNail"
+          onMouseOver="selectLargeImage(this.src)"
+          src="/images/dots.png"
+        />
+      </div>
+      <div>
+        <img
+          name="thumbnail3"
+          id="defaultThumbNail"
+          onMouseOver="selectLargeImage(this.src)"
+          src="/images/dots.png"
+        />
+      </div>
+      <div>
+        <img
+          name="thumbnail4"
+          id="defaultThumbNail"
+          onMouseOver="selectLargeImage(this.src)"
+          src="/images/dots.png"
+        />
+      </div>
+      <div>
+        <img
+          name="thumbnail5"
+          id="defaultThumbNail"
+          onMouseOver="selectLargeImage(this.src)"
+          src="/images/dots.png"
+        />
+      </div>
+      <div>
+        <img
+          name="thumbnail6"
+          id="defaultThumbNail"
+          onMouseOver="selectLargeImage(this.src)"
+          src="/images/dots.png"
+        />
+      </div>
+    </div>
+    <div>
+      <img id="largePic" name="largePic" />
+    </div>
+    <script src="dhtml.js"></script>
+  </body>
+</html>
